@@ -1,0 +1,129 @@
+.header {
+  padding: 28px 0 0 0;
+  margin: 0 0 55px 0;
+  &__body {
+  }
+
+  &__row {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+}
+.header-row {
+  &__logo {
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__account-buttons {
+    display: flex;
+    align-items: center;
+  }
+}
+.header-logo-row {
+  &__logo {
+    margin: 0 12px 0 0;
+  }
+  &__company-name {
+  }
+}
+.header-nav-row {
+  &__list {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 44px 0 0;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  &__sub-list {
+    opacity: 0;
+    position: absolute;
+    border: 2px solid $base-orange;
+    border-radius: 15px;
+    background-color: $base-light-blue;
+    flex: 1 1 100%;
+    margin: 20px 0 0 0;
+    padding: 16px 28px;
+    transition: all ease 0.2s;
+    pointer-events: none;
+    li {
+      margin: 0 0 12px 0;
+    }
+  }
+
+  &__sub-list._active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &__sub-link {
+    transition: all ease 0.2s;
+    color: $base-white-55;
+    font-size: 16px;
+    border-bottom: 12px;
+    &:hover {
+      color: $base-white-78;
+    }
+  }
+  //! СДЕЛАТЬ
+  &__link {
+    font-weight: 500;
+    color: $base-white-55;
+    line-height: 1.5;
+    transition: all ease 0.2s;
+    font-size: 16px;
+    &:hover {
+      color: $base-white-78;
+    }
+  }
+
+  &__link-down-arrow {
+    position: relative;
+    &::after {
+      content: "";
+      top: 9px;
+      width: 1.125rem;
+      height: 1.125rem;
+      position: absolute;
+      margin-left: 0.5rem;
+      background-image: url(../../img/main-page/header/arrow.svg);
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.header-account-buttons-row {
+  &__transparent-button {
+  }
+
+  &__highlighted-button {
+  }
+}
+
+.inical-transparent-button {
+  cursor: pointer;
+  a {
+    padding: 12px 28px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: $base-white-78;
+    transition: all ease 0.2s;
+    border-radius: 8px;
+    &:hover {
+      color: $base-orange;
+    }
+  }
+}
+.header-nav-row-bottons-block {
+  &__highlighted-button {
+    display: none;
+  }
+}
+////////////////////////////////////////////
