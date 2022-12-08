@@ -164,13 +164,6 @@
     &__nav._active {
       left: 0;
     }
-    &__nav::before {
-      content: "";
-      top: 0;
-      left: 0;
-      height: 70px;
-      z-index: 2;
-    }
 
     &__list > li {
       flex-wrap: wrap;
@@ -295,6 +288,7 @@
       flex-direction: column;
       align-items: self-start;
       flex: 1 1 auto;
+      margin: 0 0 50px 0;
       li {
         margin: 0 0 24px 0;
         &:last-child {
