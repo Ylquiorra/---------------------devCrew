@@ -103,12 +103,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 15px;
+  overflow: hidden;
 }
 
 [class*=__container] {
-  max-width: 1224px;
+  max-width: 1254px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 ._lock {
@@ -352,7 +353,7 @@ body {
 }
 .header__row {
   display: flex;
-  align-self: center;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -719,6 +720,7 @@ body {
   margin: 0 0 240px 0;
 }
 .join-us__small-container {
+  padding: 0 15px;
   max-width: 553px;
   margin: 0 auto;
 }

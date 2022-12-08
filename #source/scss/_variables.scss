@@ -22,12 +22,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 15px;
+  overflow: hidden;
 }
 
 [class*="__container"] {
-  max-width: 1224px;
+  max-width: 1254px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 ._lock {
   overflow: hidden;
