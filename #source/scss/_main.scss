@@ -159,44 +159,6 @@
   &__action {
   }
 
-  &__like {
-    svg {
-      padding: 7px;
-      width: 49px;
-      height: 49px;
-      transition: all ease 0.2s;
-      path {
-        transition: all ease 0.2s;
-      }
-      &:hover {
-        background: #283036;
-        box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-        border-radius: 8px;
-        path {
-          fill: $base-red;
-          fill-opacity: 1;
-        }
-      }
-    }
-  }
-
-  &__add {
-    svg {
-      transition: all ease 0.2s;
-      padding: 7px;
-      width: 49px;
-      height: 49px;
-      path {
-        transition: all ease 0.2s;
-      }
-      &:hover {
-        background: #283036;
-        box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-        border-radius: 8px;
-      }
-    }
-  }
-
   &__visit {
   }
 }

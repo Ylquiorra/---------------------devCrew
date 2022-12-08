@@ -294,8 +294,45 @@ body {
   align-items: center;
 }
 .universal-gird-item-buttons-group-row__like {
-  margin: 0 14px 0 0;
+  margin: 0 8px 0 0;
 }
+.universal-gird-item-buttons-group-row__like svg {
+  padding: 7px;
+  width: 49px;
+  height: 49px;
+  transition: all ease 0.2s;
+}
+.universal-gird-item-buttons-group-row__like svg path {
+  transition: all ease 0.2s;
+}
+.universal-gird-item-buttons-group-row__like svg:hover {
+  background: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border-radius: 8px;
+}
+.universal-gird-item-buttons-group-row__like svg:hover path {
+  fill: #fd3b41;
+  fill-opacity: 1;
+}
+.universal-gird-item-buttons-group-row__add svg {
+  transition: all ease 0.2s;
+  padding: 7px;
+  width: 49px;
+  height: 49px;
+}
+.universal-gird-item-buttons-group-row__add svg path {
+  transition: all ease 0.2s;
+}
+.universal-gird-item-buttons-group-row__add svg:hover {
+  background: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border-radius: 8px;
+}
+.universal-gird-item-buttons-group-row__add svg:hover path {
+  fill: #fd3b41;
+  fill-opacity: 1;
+}
+
 .universal-border-buttom {
   display: inline-block;
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -517,38 +554,6 @@ body {
 
 .popular-tools-grid-items {
   display: flex;
-}
-.popular-tools-grid-items-buttons-group-row__like svg {
-  padding: 7px;
-  width: 49px;
-  height: 49px;
-  transition: all ease 0.2s;
-}
-.popular-tools-grid-items-buttons-group-row__like svg path {
-  transition: all ease 0.2s;
-}
-.popular-tools-grid-items-buttons-group-row__like svg:hover {
-  background: #283036;
-  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-  border-radius: 8px;
-}
-.popular-tools-grid-items-buttons-group-row__like svg:hover path {
-  fill: #fd3b41;
-  fill-opacity: 1;
-}
-.popular-tools-grid-items-buttons-group-row__add svg {
-  transition: all ease 0.2s;
-  padding: 7px;
-  width: 49px;
-  height: 49px;
-}
-.popular-tools-grid-items-buttons-group-row__add svg path {
-  transition: all ease 0.2s;
-}
-.popular-tools-grid-items-buttons-group-row__add svg:hover {
-  background: #283036;
-  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-  border-radius: 8px;
 }
 .trusted-brand {
   margin: 0 0 200px 0;
@@ -831,7 +836,7 @@ body {
     justify-content: space-between;
   }
 }
-@media (max-width: 931px) {
+@media (max-width: 1010px) {
   .newcommer-tools__row {
     display: flex;
     flex-direction: column;
