@@ -232,10 +232,6 @@ body {
 .universal-gird-item:hover .popular-tools-grid-items-body__description-text p {
   color: rgba(255, 255, 255, 0.78);
 }
-.universal-gird-item:hover .popular-tools-grid-items-buttons-group-row__add svg path {
-  fill: rgba(255, 255, 255, 0.78);
-  fill-opacity: 1;
-}
 .universal-gird-item:hover .universal-gird-item__circle {
   top: 3%;
   left: 78%;
