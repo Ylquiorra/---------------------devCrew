@@ -63,3 +63,16 @@ if (iconMenu) {
   });
 }
 
+
+//Load more
+const loadMoreButton = document.querySelector('.popular-tools-button-block__border-buttom');
+const moreItems = document.querySelectorAll('.popular-tools-grid-items__item-load-more')
+
+loadMoreButton.addEventListener('click', function (e) {
+  e.preventDefault()
+  moreItems.forEach(obj => obj.classList.toggle('_active'))
+  document.getElementById('load-more-button').innerText = "Hide";
+  if (document.querySelector('.popular-tools-grid-items__item-load-more').className.indexOf('_active') === -1) {
+    document.getElementById('load-more-button').innerText = "Load more";
+  }
+})

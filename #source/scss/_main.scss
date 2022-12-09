@@ -130,6 +130,17 @@
   display: flex;
   &__item {
   }
+  &__item-load-more {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  &__item-load-more._active {
+    pointer-events: auto;
+
+    position: static;
+    opacity: 1;
+  }
   &__header-row {
   }
 

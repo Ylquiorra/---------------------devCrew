@@ -552,6 +552,16 @@ body {
 .popular-tools-grid-items {
   display: flex;
 }
+.popular-tools-grid-items__item-load-more {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.popular-tools-grid-items__item-load-more._active {
+  pointer-events: auto;
+  position: static;
+  opacity: 1;
+}
 .trusted-brand {
   margin: 0 0 200px 0;
 }
